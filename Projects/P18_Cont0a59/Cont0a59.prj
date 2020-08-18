@@ -1,0 +1,8 @@
+vhdl work "SelDisplay.vhd"
+vhdl work "SelAnodo.vhd"
+vhdl work "Div200Hz.vhd"
+vhdl work "Div1Hz.vhd"
+vhdl work "DecBin7Seg.vhd"
+vhdl work "ContUniBin.vhd"
+vhdl work "ContDecBin.vhd"
+vhdl work "Cont0a59.vhd"

@@ -1,0 +1,2 @@
+vhdl work "NonSignificativeZeroesCount.vhd"
+vhdl work "NonSignificativeZeroesCount_tb.vhd"

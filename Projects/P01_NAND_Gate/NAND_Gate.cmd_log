@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P01_NAND_Gate/NAND_Gate.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P01_NAND_Gate/NAND_Gate.syr" 

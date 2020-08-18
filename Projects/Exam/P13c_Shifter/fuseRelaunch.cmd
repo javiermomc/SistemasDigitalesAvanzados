@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/ProySisDigAva/P13c_Shifter/Shifter_tb_isim_beh.exe" -prj "D:/ProySisDigAva/P13c_Shifter/Shifter_tb_beh.prj" "work.Shifter_tb" 

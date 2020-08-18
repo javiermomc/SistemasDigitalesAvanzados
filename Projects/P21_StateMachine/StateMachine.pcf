@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 06 12:14:21 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "RightLight<0>" LOCATE = SITE "U15" LEVEL 1;
+COMP "RightLight<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "Left" LOCATE = SITE "V9" LEVEL 1;
+COMP "RightLight<2>" LOCATE = SITE "U16" LEVEL 1;
+COMP "LeftLight<0>" LOCATE = SITE "N11" LEVEL 1;
+COMP "LeftLight<1>" LOCATE = SITE "R11" LEVEL 1;
+COMP "LeftLight<2>" LOCATE = SITE "T11" LEVEL 1;
+COMP "Right" LOCATE = SITE "T9" LEVEL 1;
+COMP "Rst" LOCATE = SITE "B8" LEVEL 1;
+COMP "Clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "Hazard" LOCATE = SITE "T10" LEVEL 1;
+SCHEMATIC END;
+

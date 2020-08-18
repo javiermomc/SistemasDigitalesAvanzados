@@ -1,0 +1,23 @@
+NET "Q[0]" LOC = T17;
+NET "Q[1]" LOC = T18;
+NET "Q[2]" LOC = U17;
+NET "Q[3]" LOC = U18;
+NET "Q[4]" LOC = M14;
+NET "Q[5]" LOC = N14;
+NET "Q[6]" LOC = L14;
+NET "Q[7]" LOC = M13;
+
+
+NET "Anode[0]" LOC = N16;
+NET "Anode[1]" LOC = N15;
+NET "Anode[3]" LOC = P17;
+NET "Anode[2]" LOC = P18;
+
+
+NET "Clr" LOC = C4;
+NET "BinDec" LOC = T10;
+
+# PlanAhead Generated physical constraints 
+
+INST "Clk_BUFGP" LOC = V10;
+NET "Clk" LOC = V10;

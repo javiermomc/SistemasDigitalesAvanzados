@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Problem1.ngc Problem1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Problem1_map.ncd Problem1.ngd Problem1.pcf 
+par -w -intstyle ise -ol high -mt off Problem1_map.ncd Problem1.ncd Problem1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Problem1.twx Problem1.ncd -o Problem1.twr Problem1.pcf 
+bitgen -intstyle ise -f Problem1.ut Problem1.ncd 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P09_Partial1_Problem1/Problem1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Problem1.ngc Problem1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Problem1_map.ncd Problem1.ngd Problem1.pcf 
+par -w -intstyle ise -ol high -mt off Problem1_map.ncd Problem1.ncd Problem1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Problem1.twx Problem1.ncd -o Problem1.twr Problem1.pcf 
+bitgen -intstyle ise -f Problem1.ut Problem1.ncd 

@@ -1,0 +1,1 @@
+vhdtdtfi -lib work SelAnodo.vhd -prj P12_Top -o SelAnodo.spl -module SelAnodo -template D:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

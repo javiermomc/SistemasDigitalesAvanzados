@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="LeftLight">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="RightLight">
+			<Port Id="0" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+		</Bus>
+		<Port Id="Clk" Dir="IN"/>
+		<Port Id="Rst" Dir="IN"/>
+		<Port Id="Left" Dir="IN"/>
+		<Port Id="Right" Dir="IN"/>
+		<Port Id="Hazard" Dir="IN"/>
+	</Ifc>
+</Interface>
+

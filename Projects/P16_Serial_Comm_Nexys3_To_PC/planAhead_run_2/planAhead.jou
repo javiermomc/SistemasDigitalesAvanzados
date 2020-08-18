@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 16 11:52:50 2019
+# Process ID: 9656
+# Log file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2/planAhead.log
+# Journal file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/pa.fromNetlist.tcl

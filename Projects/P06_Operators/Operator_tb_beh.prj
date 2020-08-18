@@ -1,0 +1,2 @@
+vhdl work "Operators.vhd"
+vhdl work "Operator_tb.vhd"

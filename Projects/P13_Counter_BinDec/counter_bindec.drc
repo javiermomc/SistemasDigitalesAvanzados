@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Sun Oct 13 12:25:02 2019
+
+drc -z Counter_BinDec.ncd Counter_BinDec.pcf
+
+DRC detected 0 errors and 0 warnings.

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/Serial_Comm.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/Serial_Comm.syr" 

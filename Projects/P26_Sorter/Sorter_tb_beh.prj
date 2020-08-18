@@ -1,0 +1,2 @@
+vhdl work "Sorter.vhd"
+vhdl work "Sorter_tb.vhd"

@@ -1,0 +1,2 @@
+vhdl isim_temp "Operators.vhd"
+vhdl isim_temp "Operators_tb.vhd"

@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "LeftLight[2]" LOC = T11;
+NET "LeftLight[1]" LOC = R11;
+NET "LeftLight[0]" LOC = N11;
+NET "Left" LOC = V9;
+NET "Right" LOC = T9;
+NET "Hazard" LOC = T10;
+NET "Clk" LOC = V10;
+NET "Rst" LOC = B8;
+NET "RightLight[0]" LOC = U15;
+NET "RightLight[1]" LOC = V16;
+NET "RightLight[2]" LOC = U16;

@@ -1,0 +1,22 @@
+#INPUT PINS
+NET "D" LOC = M8;
+NET "C" LOC = V9;
+NET "B" LOC = T9;
+NET "A" LOC = T10;
+
+#OUTPUT PINS
+NET "Seg<7>" LOC = M13;
+NET "Seg<6>" LOC = L14;
+NET "Seg<5>" LOC = N14;
+NET "Seg<4>" LOC = M14;
+NET "Seg<3>" LOC = U18;
+NET "Seg<2>" LOC = U17;
+NET "Seg<1>" LOC = T18;
+NET "Seg<0>" LOC = T17;
+
+#ANODE PINS
+NET "Anode<3>" LOC = P17;
+NET "Anode<2>" LOC = P18;
+NET "Anode<1>" LOC = N15;
+NET "Anode<0>" LOC = N16;
+

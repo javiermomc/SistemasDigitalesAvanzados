@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/ProySisDigAva/P04_Several_ways_of_Declaring_an_XOR/XOR_2.xst" -ofn "D:/ProySisDigAva/P04_Several_ways_of_Declaring_an_XOR/XOR_2.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P04_Several_ways_of_Declaring_an_XOR/XOR_2.xst" -ofn "D:/ProySisDigAva/P04_Several_ways_of_Declaring_an_XOR/XOR_2.syr" 

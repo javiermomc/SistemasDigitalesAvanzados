@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sun Oct 13 12:05:51 2019
+# Process ID: 9160
+# Log file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P13_Counter_BinDec/planAhead_run_1/planAhead.log
+# Journal file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P13_Counter_BinDec/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P13_Counter_BinDec/pa.fromNetlist.tcl

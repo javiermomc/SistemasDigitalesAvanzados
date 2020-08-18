@@ -1,0 +1,29 @@
+Command line:
+   Even_Parity_Detector_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62807
+
+Fri Sep 20 13:50:06 2019
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 368.603 Meg
+
+ Total Signals          : 5
+ Total Nets             : 17
+ Total Signal Drivers   : 2
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 518
+Total Line Count : 16
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 368.812 Meg
+
+Fri Sep 20 13:50:19 2019
+

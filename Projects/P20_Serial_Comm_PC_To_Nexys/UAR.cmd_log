@@ -1,0 +1,51 @@
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 
+xst -intstyle ise -ifn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.xst" -ofn "C:/Xilinx/AdvancedDigitalSystems_Projects/P19a_UniversalAsynchronousReceiver/UAR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc UAR.ucf -p xc6slx16-csg324-3 UAR.ngc UAR.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o UAR_map.ncd UAR.ngd UAR.pcf 
+par -w -intstyle ise -ol high -mt off UAR_map.ncd UAR.ncd UAR.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UAR.twx UAR.ncd -o UAR.twr UAR.pcf -ucf UAR.ucf 
+bitgen -intstyle ise -f UAR.ut UAR.ncd 

@@ -1,0 +1,20 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "SelAn[3]" LOC = P17;
+NET "SelAn[2]" LOC = P18;
+NET "SelAn[1]" LOC = N15;
+NET "SelAn[0]" LOC = N16;
+NET "Seg[7]" LOC = M13;
+NET "Seg[0]" LOC = T17;
+NET "Seg[1]" LOC = T18;
+NET "Seg[2]" LOC = U17;
+NET "Seg[3]" LOC = U18;
+NET "Seg[4]" LOC = M14;
+NET "Seg[5]" LOC = N14;
+NET "Seg[6]" LOC = L14;
+
+# PlanAhead Generated physical constraints 
+
+INST "Clk_BUFGP" LOC = V10;
+NET "Clk" LOC = V10;

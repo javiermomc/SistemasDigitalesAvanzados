@@ -1,0 +1,2 @@
+vhdl work "Priority_Encoder.vhd"
+vhdl work "Priority_Encoder_tb.vhd"

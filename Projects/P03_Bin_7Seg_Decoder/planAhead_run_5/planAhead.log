@@ -1,0 +1,96 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Aug 27 22:22:50 2019
+# Process ID: 10784
+# Log file: D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/planAhead_run_5/planAhead.log
+# Journal file: D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1091 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/pa.fromNetlist.tcl
+# create_project -name P03_Bin_7Seg_Decoder -dir "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/planAhead_run_5" -part xc6slx16csg324-3
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Bin_7Seg_Decoder.ucf" [current_fileset -constrset]
+Adding file 'D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.ucf' to fileset 'constrs_1'
+# add_files [list {Bin_7Seg_Decoder.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Bin_7Seg_Decoder.ngc ...
+WARNING:NetListWriters:298 - No output is written to Bin_7Seg_Decoder.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Bin_7Seg_Decoder.edif ...
+ngc2edif: Total memory usage is 4310728 kilobytes
+
+Parsing EDIF File [./planAhead_run_5/P03_Bin_7Seg_Decoder.data/cache/Bin_7Seg_Decoder_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_5/P03_Bin_7Seg_Decoder.data/cache/Bin_7Seg_Decoder_ngc_zx.edif]
+Loading clock regions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.ucf]
+Finished Parsing UCF File [D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 947e9f5c
+link_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 648.332 ; gain = 159.766
+startgroup
+set_property package_pin N8 [get_ports D]
+endgroup
+save_constraints
+startgroup
+set_property package_pin U16 [get_ports {SEG[7]}]
+endgroup
+save_constraints
+startgroup
+set_property package_pin M8 [get_ports D]
+endgroup
+startgroup
+set_property package_pin M13 [get_ports {SEG[7]}]
+endgroup
+save_constraints -force
+set_property package_pin "" [get_ports [list  {ANODE[3]}]]
+startgroup
+set_property package_pin N16 [get_ports {ANODE[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {ANODE[2]}]]
+startgroup
+set_property package_pin N15 [get_ports {ANODE[1]}]
+endgroup
+startgroup
+set_property package_pin P18 [get_ports {ANODE[2]}]
+endgroup
+startgroup
+set_property package_pin P17 [get_ports {ANODE[3]}]
+endgroup
+save_constraints -force
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+ (See D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P03_Bin_7Seg_Decoder\planAhead_pid10784.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Tue Aug 27 23:01:30 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

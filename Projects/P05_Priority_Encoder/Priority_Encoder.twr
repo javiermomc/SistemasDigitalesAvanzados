@@ -1,0 +1,69 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Priority_Encoder.twx Priority_Encoder.ncd -o
+Priority_Encoder.twr Priority_Encoder.pcf
+
+Design file:              Priority_Encoder.ncd
+Physical constraint file: Priority_Encoder.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+INPUT<1>       |OUTPUT<0>      |    6.931|
+INPUT<2>       |OUTPUT<0>      |    7.194|
+INPUT<2>       |OUTPUT<1>      |    6.578|
+INPUT<3>       |OUTPUT<0>      |    6.322|
+INPUT<3>       |OUTPUT<1>      |    6.509|
+INPUT<4>       |OUTPUT<0>      |    6.398|
+INPUT<4>       |OUTPUT<1>      |    6.072|
+INPUT<4>       |OUTPUT<2>      |    6.207|
+INPUT<5>       |OUTPUT<0>      |    6.350|
+INPUT<5>       |OUTPUT<1>      |    6.136|
+INPUT<5>       |OUTPUT<2>      |    6.065|
+INPUT<6>       |OUTPUT<0>      |    6.307|
+INPUT<6>       |OUTPUT<1>      |    6.049|
+INPUT<6>       |OUTPUT<2>      |    6.244|
+INPUT<7>       |OUTPUT<0>      |    6.274|
+INPUT<7>       |OUTPUT<1>      |    6.328|
+INPUT<7>       |OUTPUT<2>      |    5.933|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Sep 04 11:06:04 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4574 MB
+
+
+

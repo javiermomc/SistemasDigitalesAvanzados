@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P10_Partial1_Problem2/Problem2_tb_isim_beh.exe" -prj "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Projects/P10_Partial1_Problem2/Problem2_tb_beh.prj" "work.Problem2_tb" 

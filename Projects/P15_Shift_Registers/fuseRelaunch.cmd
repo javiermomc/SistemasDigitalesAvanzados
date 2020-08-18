@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/SisDigAva/P17_Shift_Registers/Shift_Registers_B_tb_isim_beh.exe" -prj "C:/SisDigAva/P17_Shift_Registers/Shift_Registers_B_tb_beh.prj" "work.Shift_Registers_B_tb" 

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ProySisDigAva/P13d_BCD_to_Decimal_Decoder/BCD_to_Decimal_Decoder.xst" -ofn "D:/ProySisDigAva/P13d_BCD_to_Decimal_Decoder/BCD_to_Decimal_Decoder.syr" 

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 23 11:51:59 2019
+# Process ID: 1588
+# Log file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P19_Partial2Exam/planAhead_run_2/planAhead.log
+# Journal file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P19_Partial2Exam/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P19_Partial2Exam/pa.fromNetlist.tcl
+startgroup
+set_property package_pin V10 [get_ports ClkinMHz]
+endgroup
+save_constraints

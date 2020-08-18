@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/Serial_Comm_Nexys3_To_PC.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/Serial_Comm_Nexys3_To_PC.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/Serial_Comm_Nexys3_To_PC.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/Serial_Comm_Nexys3_To_PC.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/Serial_Comm_Nexys3_To_PC.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/Serial_Comm_Nexys3_To_PC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Serial_Comm_Nexys3_To_PC.ucf -p xc6slx16-csg324-3 Serial_Comm_Nexys3_To_PC.ngc Serial_Comm_Nexys3_To_PC.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Serial_Comm_Nexys3_To_PC_map.ncd Serial_Comm_Nexys3_To_PC.ngd Serial_Comm_Nexys3_To_PC.pcf 
+par -w -intstyle ise -ol high -mt off Serial_Comm_Nexys3_To_PC_map.ncd Serial_Comm_Nexys3_To_PC.ncd Serial_Comm_Nexys3_To_PC.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Serial_Comm_Nexys3_To_PC.twx Serial_Comm_Nexys3_To_PC.ncd -o Serial_Comm_Nexys3_To_PC.twr Serial_Comm_Nexys3_To_PC.pcf -ucf Serial_Comm_Nexys3_To_PC.ucf 
+bitgen -intstyle ise -f Serial_Comm_Nexys3_To_PC.ut Serial_Comm_Nexys3_To_PC.ncd 

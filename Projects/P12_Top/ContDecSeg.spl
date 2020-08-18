@@ -1,0 +1,7 @@
+[Inputs]
+En
+Rst
+Clk_1Hz
+[Outputs]
+=Dec_Seg[3:0]=
+[BiDir]

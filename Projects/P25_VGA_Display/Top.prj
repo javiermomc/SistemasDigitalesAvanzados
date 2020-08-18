@@ -1,0 +1,3 @@
+vhdl work "VGA_DISPLAY.vhd"
+vhdl work "VGA.vhd"
+vhdl work "Top.vhd"

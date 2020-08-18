@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 16 11:52:50 2019
+# Process ID: 9656
+# Log file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2/planAhead.log
+# Journal file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1141 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/pa.fromNetlist.tcl
+# create_project -name P16_Serial_Comm_Nexys3_To_PC -dir "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2" -part xc6slx16csg324-3
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2/P16_Serial_Comm_Nexys3_To_PC.ppr
+     D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_2/P16_Serial_Comm_Nexys3_To_PC.data
+
+    while executing
+"create_project -name P16_Serial_Comm_Nexys3_To_PC -dir "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_..."
+    (file "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/pa.fromNetlist.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Wed Oct 16 11:53:04 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

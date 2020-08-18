@@ -1,0 +1,389 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: Serial_Comm_Nexys3_To_PC.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Serial_Comm_Nexys3_To_PC.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Serial_Comm_Nexys3_To_PC"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Serial_Comm_Nexys3_To_PC
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\JavierJr\Documents\ISD\AgoDic19\SistemasDigitalesAvanzados\Projects\P16_Serial_Comm_Nexys3_To_PC\Serial_Comm_Nexys3_To_PC.vhd" into library work
+Parsing entity <Serial_Comm_Nexys3_To_PC>.
+Parsing architecture <Serial_Comm_Nexys3_To_PC_Arch> of entity <serial_comm_nexys3_to_pc>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Serial_Comm_Nexys3_To_PC> (architecture <Serial_Comm_Nexys3_To_PC_Arch>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Serial_Comm_Nexys3_To_PC>.
+    Related source file is "D:\JavierJr\Documents\ISD\AgoDic19\SistemasDigitalesAvanzados\Projects\P16_Serial_Comm_Nexys3_To_PC\Serial_Comm_Nexys3_To_PC.vhd".
+    Found 11-bit register for signal <ShiftReg>.
+    Found 14-bit register for signal <Count>.
+    Found 1-bit register for signal <ClkOut>.
+    Found 14-bit adder for signal <Count[13]_GND_6_o_add_1_OUT> created at line 79.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <Serial_Comm_Nexys3_To_PC> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 14-bit adder                                          : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 11-bit register                                       : 1
+ 14-bit register                                       : 1
+# Multiplexers                                         : 2
+ 11-bit 2-to-1 multiplexer                             : 1
+ 14-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Serial_Comm_Nexys3_To_PC>.
+The following registers are absorbed into counter <Count>: 1 register on signal <Count>.
+Unit <Serial_Comm_Nexys3_To_PC> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 14-bit up counter                                     : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Multiplexers                                         : 1
+ 11-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <ShiftReg_10> (without init value) has a constant value of 1 in block <Serial_Comm_Nexys3_To_PC>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <Serial_Comm_Nexys3_To_PC> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Serial_Comm_Nexys3_To_PC, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 25
+ Flip-Flops                                            : 25
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Serial_Comm_Nexys3_To_PC.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 71
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 13
+#      LUT2                        : 3
+#      LUT3                        : 7
+#      LUT4                        : 1
+#      LUT5                        : 14
+#      LUT6                        : 2
+#      MUXCY                       : 13
+#      VCC                         : 1
+#      XORCY                       : 14
+# FlipFlops/Latches                : 25
+#      FDC                         : 14
+#      FDE                         : 1
+#      FDPE                        : 10
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 11
+#      IBUF                        : 10
+#      OBUF                        : 1
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              25  out of  18224     0%  
+ Number of Slice LUTs:                   42  out of   9112     0%  
+    Number used as Logic:                42  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     42
+   Number with an unused Flip Flop:      17  out of     42    40%  
+   Number with an unused LUT:             0  out of     42     0%  
+   Number of fully used LUT-FF pairs:    25  out of     42    59%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          12
+ Number of bonded IOBs:                  12  out of    232     5%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 25    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.148ns (Maximum Frequency: 317.647MHz)
+   Minimum input arrival time before clock: 3.521ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 3.148ns (frequency: 317.647MHz)
+  Total number of paths / destination ports: 334 / 34
+-------------------------------------------------------------------------
+Delay:               3.148ns (Levels of Logic = 2)
+  Source:            Count_2 (FF)
+  Destination:       Count_13 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: Count_2 to Count_13
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.447   0.981  Count_2 (Count_2)
+     LUT6:I0->O           15   0.203   1.210  PWR_6_o_Count[13]_equal_1_o<13>2 (PWR_6_o_Count[13]_equal_1_o<13>1)
+     LUT5:I2->O            1   0.205   0.000  Mcount_Count_eqn_131 (Mcount_Count_eqn_13)
+     FDC:D                     0.102          Count_13
+    ----------------------------------------
+    Total                      3.148ns (0.957ns logic, 2.191ns route)
+                                       (30.4% logic, 69.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 43 / 35
+-------------------------------------------------------------------------
+Offset:              3.521ns (Levels of Logic = 2)
+  Source:            Rst (PAD)
+  Destination:       ClkOut (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Rst to ClkOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            25   1.222   1.192  Rst_IBUF (Rst_IBUF)
+     INV:I->O              1   0.206   0.579  Rst_inv1_INV_0 (Rst_inv)
+     FDE:CE                    0.322          ClkOut
+    ----------------------------------------
+    Total                      3.521ns (1.750ns logic, 1.771ns route)
+                                       (49.7% logic, 50.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            ShiftReg_0 (FF)
+  Destination:       Tx (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: ShiftReg_0 to Tx
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             1   0.447   0.579  ShiftReg_0 (ShiftReg_0)
+     OBUF:I->O                 2.571          Tx_OBUF (Tx)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    3.148|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.25 secs
+ 
+--> 
+
+Total memory usage is 4510560 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Basic_Gates_map.ncd Basic_Gates.ngd Basic_Gates.pcf 
+par -w -intstyle ise -ol high -mt off Basic_Gates_map.ncd Basic_Gates.ncd Basic_Gates.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Basic_Gates.twx Basic_Gates.ncd -o Basic_Gates.twr Basic_Gates.pcf -ucf Basic_Gates.ucf 
+bitgen -intstyle ise -f Basic_Gates.ut Basic_Gates.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Basic_Gates_map.ncd Basic_Gates.ngd Basic_Gates.pcf 
+par -w -intstyle ise -ol high -mt off Basic_Gates_map.ncd Basic_Gates.ncd Basic_Gates.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Basic_Gates.twx Basic_Gates.ncd -o Basic_Gates.twr Basic_Gates.pcf -ucf Basic_Gates.ucf 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Basic_Gates_map.ncd Basic_Gates.ngd Basic_Gates.pcf 
+par -w -intstyle ise -ol high -mt off Basic_Gates_map.ncd Basic_Gates.ncd Basic_Gates.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Basic_Gates.twx Basic_Gates.ncd -o Basic_Gates.twr Basic_Gates.pcf -ucf Basic_Gates.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Basic_Gates_map.ncd Basic_Gates.ngd Basic_Gates.pcf 
+par -w -intstyle ise -ol high -mt off Basic_Gates_map.ncd Basic_Gates.ncd Basic_Gates.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Basic_Gates.twx Basic_Gates.ncd -o Basic_Gates.twr Basic_Gates.pcf -ucf Basic_Gates.ucf 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+xst -intstyle ise -ifn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.xst" -ofn "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P02_Basic_Gates/Basic_Gates.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Basic_Gates.ucf -p xc6slx16-csg324-3 Basic_Gates.ngc Basic_Gates.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Basic_Gates_map.ncd Basic_Gates.ngd Basic_Gates.pcf 
+par -w -intstyle ise -ol high -mt off Basic_Gates_map.ncd Basic_Gates.ncd Basic_Gates.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Basic_Gates.twx Basic_Gates.ncd -o Basic_Gates.twr Basic_Gates.pcf -ucf Basic_Gates.ucf 
+bitgen -intstyle ise -f Basic_Gates.ut Basic_Gates.ncd 

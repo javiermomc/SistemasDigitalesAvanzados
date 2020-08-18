@@ -1,0 +1,2 @@
+vhdl work "Even_Parity_Detector.vhd"
+vhdl work "Even_Parity_Detector_tb.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/ProySisDigAva/P13a_Demultiplexor1to8/Demultiplexor1to8_tb_isim_beh.exe" -prj "D:/ProySisDigAva/P13a_Demultiplexor1to8/Demultiplexor1to8_tb_beh.prj" "work.Demultiplexor1to8_tb" 

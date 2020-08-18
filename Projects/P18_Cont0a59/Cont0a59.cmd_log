@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Cont0a59.ucf -p xc6slx16-csg324-3 Cont0a59.ngc Cont0a59.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cont0a59_map.ncd Cont0a59.ngd Cont0a59.pcf 
+par -w -intstyle ise -ol high -mt off Cont0a59_map.ncd Cont0a59.ncd Cont0a59.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cont0a59.twx Cont0a59.ncd -o Cont0a59.twr Cont0a59.pcf -ucf Cont0a59.ucf 
+bitgen -intstyle ise -f Cont0a59.ut Cont0a59.ncd 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Cont0a59.ucf -p xc6slx16-csg324-3 Cont0a59.ngc Cont0a59.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cont0a59_map.ncd Cont0a59.ngd Cont0a59.pcf 
+par -w -intstyle ise -ol high -mt off Cont0a59_map.ncd Cont0a59.ncd Cont0a59.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cont0a59.twx Cont0a59.ncd -o Cont0a59.twr Cont0a59.pcf -ucf Cont0a59.ucf 
+bitgen -intstyle ise -f Cont0a59.ut Cont0a59.ncd 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Cont0a59.ucf -p xc6slx16-csg324-3 Cont0a59.ngc Cont0a59.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Cont0a59.ucf -p xc6slx16-csg324-3 Cont0a59.ngc Cont0a59.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cont0a59_map.ncd Cont0a59.ngd Cont0a59.pcf 
+par -w -intstyle ise -ol high -mt off Cont0a59_map.ncd Cont0a59.ncd Cont0a59.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cont0a59.twx Cont0a59.ncd -o Cont0a59.twr Cont0a59.pcf -ucf Cont0a59.ucf 
+bitgen -intstyle ise -f Cont0a59.ut Cont0a59.ncd 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Cont0a59.ucf -p xc6slx16-csg324-3 Cont0a59.ngc Cont0a59.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cont0a59_map.ncd Cont0a59.ngd Cont0a59.pcf 
+par -w -intstyle ise -ol high -mt off Cont0a59_map.ncd Cont0a59.ncd Cont0a59.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cont0a59.twx Cont0a59.ncd -o Cont0a59.twr Cont0a59.pcf -ucf Cont0a59.ucf 
+bitgen -intstyle ise -f Cont0a59.ut Cont0a59.ncd 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P18_Cont0a59/Cont0a59.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Cont0a59.ucf -p xc6slx16-csg324-3 Cont0a59.ngc Cont0a59.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Cont0a59_map.ncd Cont0a59.ngd Cont0a59.pcf 
+par -w -intstyle ise -ol high -mt off Cont0a59_map.ncd Cont0a59.ncd Cont0a59.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Cont0a59.twx Cont0a59.ncd -o Cont0a59.twr Cont0a59.pcf -ucf Cont0a59.ucf 
+bitgen -intstyle ise -f Cont0a59.ut Cont0a59.ncd 

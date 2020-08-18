@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/SisDigAva/P17_Shift_Registers/Shift_Registers.xst" -ofn "C:/SisDigAva/P17_Shift_Registers/Shift_Registers.syr" 
+xst -intstyle ise -ifn "C:/SisDigAva/P17_Shift_Registers/Shift_Registers.xst" -ofn "C:/SisDigAva/P17_Shift_Registers/Shift_Registers.syr" 

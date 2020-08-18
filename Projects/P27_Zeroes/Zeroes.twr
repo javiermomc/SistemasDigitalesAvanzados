@@ -1,0 +1,123 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Zeroes.twx Zeroes.ncd -o Zeroes.twr Zeroes.pcf
+
+Design file:              Zeroes.ncd
+Physical constraint file: Zeroes.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+data<0>        |zeroes<0>      |    7.834|
+data<0>        |zeroes<1>      |    8.667|
+data<0>        |zeroes<2>      |    9.714|
+data<0>        |zeroes<3>      |   10.691|
+data<0>        |zeroes<4>      |   10.736|
+data<0>        |zeroes<5>      |   11.682|
+data<0>        |zeroes<6>      |   13.126|
+data<0>        |zeroes<7>      |   13.841|
+data<0>        |zeroes<8>      |   14.366|
+data<1>        |zeroes<0>      |    7.700|
+data<1>        |zeroes<1>      |    8.533|
+data<1>        |zeroes<2>      |    9.580|
+data<1>        |zeroes<3>      |   10.557|
+data<1>        |zeroes<4>      |   10.602|
+data<1>        |zeroes<5>      |   11.548|
+data<1>        |zeroes<6>      |   12.992|
+data<1>        |zeroes<7>      |   13.707|
+data<1>        |zeroes<8>      |   14.232|
+data<2>        |zeroes<0>      |    7.985|
+data<2>        |zeroes<1>      |    8.818|
+data<2>        |zeroes<2>      |    9.865|
+data<2>        |zeroes<3>      |   10.842|
+data<2>        |zeroes<4>      |   10.887|
+data<2>        |zeroes<5>      |   11.833|
+data<2>        |zeroes<6>      |   13.277|
+data<2>        |zeroes<7>      |   13.992|
+data<2>        |zeroes<8>      |   14.517|
+data<3>        |zeroes<0>      |    7.793|
+data<3>        |zeroes<1>      |    8.626|
+data<3>        |zeroes<2>      |    9.673|
+data<3>        |zeroes<3>      |   10.650|
+data<3>        |zeroes<4>      |   10.695|
+data<3>        |zeroes<5>      |   11.641|
+data<3>        |zeroes<6>      |   13.085|
+data<3>        |zeroes<7>      |   13.800|
+data<3>        |zeroes<8>      |   14.325|
+data<4>        |zeroes<0>      |    7.344|
+data<4>        |zeroes<1>      |    8.177|
+data<4>        |zeroes<2>      |    9.224|
+data<4>        |zeroes<3>      |   10.201|
+data<4>        |zeroes<4>      |   10.246|
+data<4>        |zeroes<5>      |   11.192|
+data<4>        |zeroes<6>      |   12.636|
+data<4>        |zeroes<7>      |   13.351|
+data<4>        |zeroes<8>      |   13.876|
+data<5>        |zeroes<0>      |    6.958|
+data<5>        |zeroes<1>      |    7.791|
+data<5>        |zeroes<2>      |    8.838|
+data<5>        |zeroes<3>      |    9.815|
+data<5>        |zeroes<4>      |    9.860|
+data<5>        |zeroes<5>      |   10.806|
+data<5>        |zeroes<6>      |   12.250|
+data<5>        |zeroes<7>      |   12.965|
+data<5>        |zeroes<8>      |   13.490|
+data<6>        |zeroes<0>      |    6.713|
+data<6>        |zeroes<1>      |    7.546|
+data<6>        |zeroes<2>      |    8.593|
+data<6>        |zeroes<3>      |    9.570|
+data<6>        |zeroes<4>      |    9.615|
+data<6>        |zeroes<5>      |   10.561|
+data<6>        |zeroes<6>      |   12.005|
+data<6>        |zeroes<7>      |   12.720|
+data<6>        |zeroes<8>      |   13.245|
+data<7>        |zeroes<0>      |    7.146|
+data<7>        |zeroes<1>      |    7.979|
+data<7>        |zeroes<2>      |    9.026|
+data<7>        |zeroes<3>      |   10.003|
+data<7>        |zeroes<4>      |   10.048|
+data<7>        |zeroes<5>      |   10.994|
+data<7>        |zeroes<6>      |   12.438|
+data<7>        |zeroes<7>      |   13.153|
+data<7>        |zeroes<8>      |   13.678|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Dec 02 11:16:34 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4575 MB
+
+
+

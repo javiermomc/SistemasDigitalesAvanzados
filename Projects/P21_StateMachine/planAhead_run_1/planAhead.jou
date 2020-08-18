@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Nov 06 11:58:57 2019
+# Process ID: 2168
+# Log file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P21_StateMachine/planAhead_run_1/planAhead.log
+# Journal file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P21_StateMachine/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P21_StateMachine/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T11 [get_ports {LeftLight[2]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {LeftLight[1]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {LeftLight[0]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports Left]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports Right]
+endgroup
+set_property package_pin "" [get_ports [list  Rst]]
+startgroup
+set_property package_pin T10 [get_ports Hazard]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin U15 [get_ports {RightLight[0]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {RightLight[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {RightLight[2]}]
+endgroup
+save_constraints

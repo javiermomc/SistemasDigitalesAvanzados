@@ -1,0 +1,29 @@
+Command line:
+   NonSignificativeZeroesCount_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  53605
+
+Mon Dec 02 13:20:47 2019
+
+
+ Elaboration Time: 0.28125 sec
+
+ Current Memory Usage: 5817.57 Meg
+
+ Total Signals          : 4
+ Total Nets             : 9
+ Total Signal Drivers   : 2
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 510
+Total Line Count : 19
+
+ Total Simulation Time: 0.28125 sec
+
+ Current Memory Usage: 5817.57 Meg
+
+Mon Dec 02 13:20:59 2019
+

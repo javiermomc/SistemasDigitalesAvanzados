@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf Top.ucf
+
+Design file:              Top.ncd
+Physical constraint file: Top.pcf
+Device,package,speed:     xc6slx16,csg324,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock ClkinMHz
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Load        |    2.004(R)|      SLOW  |   -1.236(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Reset       |    5.605(R)|      SLOW  |   -1.085(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Segundos<0> |    0.756(R)|      FAST  |   -0.076(R)|      SLOW  |ClkinMHz_BUFGP    |   0.000|
+Segundos<1> |    2.868(R)|      SLOW  |   -0.199(R)|      SLOW  |ClkinMHz_BUFGP    |   0.000|
+Segundos<2> |    2.947(R)|      SLOW  |   -0.907(R)|      SLOW  |ClkinMHz_BUFGP    |   0.000|
+Segundos<3> |    3.124(R)|      SLOW  |   -0.974(R)|      SLOW  |ClkinMHz_BUFGP    |   0.000|
+Segundos<4> |    1.509(R)|      SLOW  |   -0.962(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Segundos<5> |    3.275(R)|      SLOW  |   -1.027(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Segundos<6> |    3.223(R)|      SLOW  |   -0.505(R)|      SLOW  |ClkinMHz_BUFGP    |   0.000|
+Segundos<7> |    3.976(R)|      SLOW  |   -1.259(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock ClkinMHz to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Fin         |         8.931(R)|      SLOW  |         4.328(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<0>      |        12.932(R)|      SLOW  |         4.163(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<1>      |        12.499(R)|      SLOW  |         4.446(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<2>      |        12.938(R)|      SLOW  |         4.620(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<3>      |        13.210(R)|      SLOW  |         4.588(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<4>      |        13.321(R)|      SLOW  |         4.412(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<5>      |        13.501(R)|      SLOW  |         4.485(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+Seg<6>      |        12.749(R)|      SLOW  |         4.588(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+SelAn<0>    |         9.827(R)|      SLOW  |         5.285(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+SelAn<1>    |        10.362(R)|      SLOW  |         5.617(R)|      FAST  |ClkinMHz_BUFGP    |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock ClkinMHz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+ClkinMHz       |    4.194|    1.924|    2.568|    0.896|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Fri Oct 25 15:44:00 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4575 MB
+
+
+

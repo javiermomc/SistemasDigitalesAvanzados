@@ -1,0 +1,450 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: Traffic_lights.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Traffic_lights.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Traffic_lights"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Traffic_lights
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\JavierJr\Documents\ISD\AgoDic19\SistemasDigitalesAvanzados\Projects\P22_Traffic_lights\DivHz.vhd" into library work
+Parsing entity <DivHz>.
+Parsing architecture <DivHz_Arch> of entity <divhz>.
+Parsing VHDL file "D:\JavierJr\Documents\ISD\AgoDic19\SistemasDigitalesAvanzados\Projects\P22_Traffic_lights\Traffic_lights.vhd" into library work
+Parsing entity <Traffic_lights>.
+Parsing architecture <Behavioral> of entity <traffic_lights>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Traffic_lights> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DivHz> (architecture <DivHz_Arch>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Traffic_lights>.
+    Related source file is "D:\JavierJr\Documents\ISD\AgoDic19\SistemasDigitalesAvanzados\Projects\P22_Traffic_lights\Traffic_lights.vhd".
+    Found 2-bit register for signal <pres_state>.
+    Found finite state machine <FSM_0> for signal <pres_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 5                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Reset              | Rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | r                                              |
+    | Power Up State     | g                                              |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Traffic_lights> synthesized.
+
+Synthesizing Unit <DivHz>.
+    Related source file is "D:\JavierJr\Documents\ISD\AgoDic19\SistemasDigitalesAvanzados\Projects\P22_Traffic_lights\DivHz.vhd".
+    Found 1-bit register for signal <En>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DivHz> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <En> (without init value) has a constant value of 0 in block <U1>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <En> (without init value) has a constant value of 0 in block <DivHz>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <pres_state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ g     | 00
+ y     | 01
+ r     | 10
+ ry    | 11
+-------------------
+WARNING:Xst:1293 - FF/Latch <pres_state_FSM_FFd2> has a constant value of 0 in block <Traffic_lights>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:3002 - This design contains one or more registers/latches that are directly
+   incompatible with the Spartan6 architecture. The two primary causes of this is
+   either a register or latch described with both an asynchronous set and
+   asynchronous reset, or a register or latch described with an asynchronous
+   set or reset which however has an initialization value of the opposite 
+   polarity (i.e. asynchronous reset with an initialization value of 1).
+    While this circuit can be built, it creates a sub-optimal implementation
+   in terms of area, power and performance. For a more optimal implementation
+   Xilinx highly recommends one of the following:
+
+          1) Remove either the set or reset from all registers and latches
+             if not needed for required functionality
+          2) Modify the code in order to produce a synchronous set
+             and/or reset (both is preferred)
+          3) Ensure all registers have the same initialization value as the
+             described asynchronous set or reset polarity
+          4) Use the -async_to_sync option to transform the asynchronous
+             set/reset to synchronous operation
+             (timing simulation highly recommended when using this option)
+
+  Please refer to http://www.xilinx.com search string "Spartan6 asynchronous set/reset" for more details.
+
+  List of register instances with asynchronous set or reset and opposite initialization value:
+    pres_state_FSM_FFd1 in unit <Traffic_lights>
+
+
+Optimizing unit <Traffic_lights> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Traffic_lights, actual ratio is 0.
+WARNING:Xst:1426 - The value init of the FF/Latch pres_state_FSM_FFd1_LD hinder the constant cleaning in the block Traffic_lights.
+   You should achieve better results by setting this init to 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Traffic_lights.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 4
+#      GND                         : 1
+#      LUT3                        : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 3
+#      FD                          : 1
+#      FDP                         : 1
+#      LD                          : 1
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 4
+#      IBUF                        : 1
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               3  out of  18224     0%  
+ Number of Slice LUTs:                    2  out of   9112     0%  
+    Number used as Logic:                 2  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      5
+   Number with an unused Flip Flop:       2  out of      5    40%  
+   Number with an unused LUT:             3  out of      5    60%  
+   Number of fully used LUT-FF pairs:     0  out of      5     0%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                           5
+ Number of bonded IOBs:                   5  out of    232     2%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Rst                                | IBUF+BUFG              | 1     |
+Clk                                | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.473ns (Maximum Frequency: 678.771MHz)
+   Minimum input arrival time before clock: 2.231ns
+   Maximum output required time after clock: 4.769ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 1.473ns (frequency: 678.771MHz)
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Delay:               1.473ns (Levels of Logic = 1)
+  Source:            pres_state_FSM_FFd1_P (FF)
+  Destination:       pres_state_FSM_FFd1_C (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: pres_state_FSM_FFd1_P to pres_state_FSM_FFd1_C
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              2   0.447   0.721  pres_state_FSM_FFd1_P (pres_state_FSM_FFd1_P)
+     LUT3:I1->O            3   0.203   0.000  pres_state_FSM_FFd11 (pres_state_FSM_FFd1)
+     FD:D                      0.102          pres_state_FSM_FFd1_C
+    ----------------------------------------
+    Total                      1.473ns (0.752ns logic, 0.721ns route)
+                                       (51.0% logic, 49.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.231ns (Levels of Logic = 1)
+  Source:            Rst (PAD)
+  Destination:       pres_state_FSM_FFd1_P (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Rst to pres_state_FSM_FFd1_P
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  Rst_IBUF (Rst_IBUF)
+     FDP:PRE                   0.430          pres_state_FSM_FFd1_P
+    ----------------------------------------
+    Total                      2.231ns (1.652ns logic, 0.579ns route)
+                                       (74.1% logic, 25.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Rst'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.769ns (Levels of Logic = 2)
+  Source:            pres_state_FSM_FFd1_LD (LATCH)
+  Destination:       Red (PAD)
+  Source Clock:      Rst falling
+
+  Data Path: pres_state_FSM_FFd1_LD to Red
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               2   0.498   0.845  pres_state_FSM_FFd1_LD (pres_state_FSM_FFd1_LD)
+     LUT3:I0->O            3   0.205   0.650  pres_state_FSM_FFd11 (pres_state_FSM_FFd1)
+     OBUF:I->O                 2.571          Red_OBUF (Red)
+    ----------------------------------------
+    Total                      4.769ns (3.274ns logic, 1.496ns route)
+                                       (68.6% logic, 31.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 4 / 2
+-------------------------------------------------------------------------
+Offset:              4.593ns (Levels of Logic = 2)
+  Source:            pres_state_FSM_FFd1_P (FF)
+  Destination:       Red (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: pres_state_FSM_FFd1_P to Red
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              2   0.447   0.721  pres_state_FSM_FFd1_P (pres_state_FSM_FFd1_P)
+     LUT3:I1->O            3   0.203   0.650  pres_state_FSM_FFd11 (pres_state_FSM_FFd1)
+     OBUF:I->O                 2.571          Red_OBUF (Red)
+    ----------------------------------------
+    Total                      4.593ns (3.221ns logic, 1.372ns route)
+                                       (70.1% logic, 29.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    1.473|         |         |         |
+Rst            |         |    1.650|         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.72 secs
+ 
+--> 
+
+Total memory usage is 4494368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

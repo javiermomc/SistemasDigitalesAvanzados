@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="P16_Serial_Comm_Nexys3_To_PC.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Serial_Comm_Nexys3_To_PC.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Serial_Comm_Nexys3_To_PC.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Serial_Comm_Nexys3_To_PC.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Serial_Comm_Nexys3_To_PC.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Serial_Comm_Nexys3_To_PC.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Serial_Comm_Nexys3_To_PC.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Serial_Comm_Nexys3_To_PC.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Serial_Comm_Nexys3_To_PC.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Serial_Comm_Nexys3_To_PC.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Serial_Comm_Nexys3_To_PC.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Serial_Comm_Nexys3_To_PC.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Serial_Comm_Nexys3_To_PC.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Serial_Comm_Nexys3_To_PC.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Serial_Comm_Nexys3_To_PC.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Serial_Comm_Nexys3_To_PC.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Serial_Comm_Nexys3_To_PC_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Serial_Comm_Nexys3_To_PC_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Serial_Comm_Nexys3_To_PC_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Serial_Comm_Nexys3_To_PC_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Serial_Comm_Nexys3_To_PC_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Serial_Comm_Nexys3_To_PC_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Serial_Comm_Nexys3_To_PC_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Serial_Comm_Nexys3_To_PC_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Serial_Comm_Nexys3_To_PC_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Serial_Comm_Nexys3_To_PC_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Serial_Comm_Nexys3_To_PC_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="serial_comm_nexys3_to_pc.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="serial_comm_nexys3_to_pc.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="serial_comm_nexys3_to_pc.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3116381084862887483" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-343148856891619766" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1962615959513262787" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1106364426758808884" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571244661" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1744960141717853268" xil_pn:start_ts="1571244661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245037" xil_pn:in_ck="3644760135806657848" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="2648014892778458073" xil_pn:start_ts="1571245030">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.lso"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.ngc"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.ngr"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.prj"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.stx"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.syr"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.xst"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245075" xil_pn:in_ck="3644760135806656596" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="3124852243898341480" xil_pn:start_ts="1571245075">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245083" xil_pn:in_ck="1742770445122176098" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4595991391744307435" xil_pn:start_ts="1571245075">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.bld"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.ngd"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245099" xil_pn:in_ck="-2357329108709773341" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="1463976855095865663" xil_pn:start_ts="1571245083">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.pcf"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_map.map"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_map.mrp"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_map.ncd"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_map.ngm"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_map.xrpt"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_summary.xml"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245112" xil_pn:in_ck="3345122721087304188" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1178055513630676559" xil_pn:start_ts="1571245099">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.ncd"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.pad"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.par"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.ptwx"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.unroutes"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.xpi"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_pad.csv"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_pad.txt"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245124" xil_pn:in_ck="3644760135806648971" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="396117104113915555" xil_pn:start_ts="1571245112">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="serial_comm_nexys3_to_pc.bgn"/>
+      <outfile xil_pn:name="serial_comm_nexys3_to_pc.bit"/>
+      <outfile xil_pn:name="serial_comm_nexys3_to_pc.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1571245112" xil_pn:in_ck="3900233859530555743" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1571245107">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.twr"/>
+      <outfile xil_pn:name="Serial_Comm_Nexys3_To_PC.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

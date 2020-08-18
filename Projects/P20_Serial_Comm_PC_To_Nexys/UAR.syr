@@ -1,0 +1,394 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.45 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.46 secs
+ 
+--> Reading design: UAR.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UAR.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UAR"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : UAR
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Xilinx\AdvancedDigitalSystems_Projects\P19a_UniversalAsynchronousReceiver\UAR.vhd" into library work
+Parsing entity <UAR>.
+Parsing architecture <UAR_Architecture> of entity <uar>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <UAR> (architecture <UAR_Architecture>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <UAR>.
+    Related source file is "C:\Xilinx\AdvancedDigitalSystems_Projects\P19a_UniversalAsynchronousReceiver\UAR.vhd".
+    Found 20-bit register for signal <ShiftReg>.
+    Found 13-bit register for signal <Count100M>.
+    Found 1-bit register for signal <ClkOut>.
+    Found 8-bit register for signal <Dout>.
+    Found 13-bit adder for signal <Count100M[12]_GND_6_o_add_1_OUT> created at line 60.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  42 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <UAR> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 13-bit adder                                          : 1
+# Registers                                            : 4
+ 1-bit register                                        : 1
+ 13-bit register                                       : 1
+ 20-bit register                                       : 1
+ 8-bit register                                        : 1
+# Multiplexers                                         : 2
+ 13-bit 2-to-1 multiplexer                             : 1
+ 20-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <UAR>.
+The following registers are absorbed into counter <Count100M>: 1 register on signal <Count100M>.
+Unit <UAR> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 13-bit up counter                                     : 1
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+# Multiplexers                                         : 1
+ 20-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <UAR> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block UAR, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 42
+ Flip-Flops                                            : 42
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : UAR.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 99
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 12
+#      LUT2                        : 21
+#      LUT3                        : 2
+#      LUT4                        : 22
+#      LUT5                        : 2
+#      LUT6                        : 11
+#      MUXCY                       : 12
+#      VCC                         : 1
+#      XORCY                       : 13
+# FlipFlops/Latches                : 42
+#      FDC                         : 13
+#      FDE                         : 9
+#      FDPE                        : 20
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 14
+#      IBUF                        : 2
+#      OBUF                        : 12
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              42  out of  18224     0%  
+ Number of Slice LUTs:                   72  out of   9112     0%  
+    Number used as Logic:                72  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     72
+   Number with an unused Flip Flop:      30  out of     72    41%  
+   Number with an unused LUT:             0  out of     72     0%  
+   Number of fully used LUT-FF pairs:    42  out of     72    58%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          15
+ Number of bonded IOBs:                  15  out of    232     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clk                                | BUFGP                  | 42    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.101ns (Maximum Frequency: 322.503MHz)
+   Minimum input arrival time before clock: 3.762ns
+   Maximum output required time after clock: 6.313ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 3.101ns (frequency: 322.503MHz)
+  Total number of paths / destination ports: 364 / 70
+-------------------------------------------------------------------------
+Delay:               3.101ns (Levels of Logic = 4)
+  Source:            Count100M_11 (FF)
+  Destination:       Count100M_12 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: Count100M_11 to Count100M_12
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             15   0.447   0.982  Count100M_11 (Count100M_11)
+     LUT1:I0->O            1   0.205   0.000  Mcount_Count100M_cy<11>_rt (Mcount_Count100M_cy<11>_rt)
+     MUXCY:S->O            0   0.172   0.000  Mcount_Count100M_cy<11> (Mcount_Count100M_cy<11>)
+     XORCY:CI->O           1   0.180   0.808  Mcount_Count100M_xor<12> (Result<12>)
+     LUT4:I1->O            1   0.205   0.000  Mcount_Count100M_eqn_121 (Mcount_Count100M_eqn_12)
+     FDC:D                     0.102          Count100M_12
+    ----------------------------------------
+    Total                      3.101ns (1.311ns logic, 1.790ns route)
+                                       (42.3% logic, 57.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 43 / 43
+-------------------------------------------------------------------------
+Offset:              3.762ns (Levels of Logic = 2)
+  Source:            Rst (PAD)
+  Destination:       ClkOut (FF)
+  Destination Clock: Clk rising
+
+  Data Path: Rst to ClkOut
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            42   1.222   1.433  Rst_IBUF (Rst_IBUF)
+     INV:I->O              1   0.206   0.579  Rst_inv1_INV_0 (Rst_inv)
+     FDE:CE                    0.322          ClkOut
+    ----------------------------------------
+    Total                      3.762ns (1.750ns logic, 2.012ns route)
+                                       (46.5% logic, 53.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 99 / 8
+-------------------------------------------------------------------------
+Offset:              6.313ns (Levels of Logic = 3)
+  Source:            Dout_3 (FF)
+  Destination:       Seg<7> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: Dout_3 to Seg<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q             10   0.447   1.201  Dout_3 (Dout_3)
+     LUT5:I0->O            6   0.203   1.109  Seg<8>11 (Seg<8>1)
+     LUT6:I0->O            1   0.203   0.579  Seg<1>1 (Seg_7_OBUF)
+     OBUF:I->O                 2.571          Seg_7_OBUF (Seg<7>)
+    ----------------------------------------
+    Total                      6.313ns (3.424ns logic, 2.889ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clk            |    3.101|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 12.94 secs
+ 
+--> 
+
+Total memory usage is 4510780 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

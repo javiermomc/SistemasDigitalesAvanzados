@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Oct 16 11:52:28 2019
+# Process ID: 18240
+# Log file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_1/planAhead.log
+# Journal file: D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P16_Serial_Comm_Nexys3_To_PC/pa.fromNetlist.tcl
+startgroup
+set_property package_pin V10 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Load]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin N18 [get_ports Tx]
+endgroup
+startgroup
+set_property package_pin T5 [get_ports {ASCII[7]}]
+endgroup
+startgroup
+set_property package_pin V8 [get_ports {ASCII[6]}]
+endgroup
+startgroup
+set_property package_pin U8 [get_ports {ASCII[5]}]
+endgroup
+startgroup
+set_property package_pin N8 [get_ports {ASCII[4]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {ASCII[3]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {ASCII[2]}]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports {ASCII[1]}]
+endgroup
+startgroup
+set_property package_pin T10 [get_ports {ASCII[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {ASCII[0]}]]
+set_property is_loc_fixed true [get_ports [list  {ASCII[0]}]]
+save_constraints

@@ -1,0 +1,2 @@
+vhdl work "Demultiplexor1to8.vhd"
+vhdl work "Demultiplexor1to8_tb.vhd"

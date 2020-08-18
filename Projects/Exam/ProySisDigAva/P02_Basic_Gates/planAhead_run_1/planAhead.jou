@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Aug 21 11:55:36 2019
+# Process ID: 9428
+# Log file: D:/ProySisDigAva/P02_Basic_Gates/planAhead_run_1/planAhead.log
+# Journal file: D:/ProySisDigAva/P02_Basic_Gates/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/ProySisDigAva/P02_Basic_Gates/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin T10 [get_ports A]
+endgroup
+startgroup
+set_property package_pin T9 [get_ports B]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports C]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports Y]
+endgroup
+save_constraints

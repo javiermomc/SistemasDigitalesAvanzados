@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P05_Priority_Encoder/Priority_Encoder_tb_isim_beh.exe" -prj "D:/JavierJr/Documents/Escuela/AgoDic19/SistemasDigitalesAvanzados/Proyects/P05_Priority_Encoder/Priority_Encoder_tb_beh.prj" "work.Priority_Encoder_tb" 

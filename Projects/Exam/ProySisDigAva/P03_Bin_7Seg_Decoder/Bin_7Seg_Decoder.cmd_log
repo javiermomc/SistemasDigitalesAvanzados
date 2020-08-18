@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Bin_7Seg_Decoder.ucf -p xc6slx16-csg324-3 Bin_7Seg_Decoder.ngc Bin_7Seg_Decoder.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Bin_7Seg_Decoder_map.ncd Bin_7Seg_Decoder.ngd Bin_7Seg_Decoder.pcf 
+par -w -intstyle ise -ol high -mt off Bin_7Seg_Decoder_map.ncd Bin_7Seg_Decoder.ncd Bin_7Seg_Decoder.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Bin_7Seg_Decoder.twx Bin_7Seg_Decoder.ncd -o Bin_7Seg_Decoder.twr Bin_7Seg_Decoder.pcf -ucf Bin_7Seg_Decoder.ucf 
+bitgen -intstyle ise -f Bin_7Seg_Decoder.ut Bin_7Seg_Decoder.ncd 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.xst" -ofn "D:/ProySisDigAva/P03_Bin_7Seg_Decoder/Bin_7Seg_Decoder.syr" 

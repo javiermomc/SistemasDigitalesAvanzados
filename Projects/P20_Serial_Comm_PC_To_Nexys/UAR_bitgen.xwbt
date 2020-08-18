@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\AdvancedDigitalSystems_Projects\P19a_UniversalAsynchronousReceiver\UAR.ncd
+OUTFILE=C:\Xilinx\AdvancedDigitalSystems_Projects\P19a_UniversalAsynchronousReceiver\UAR.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Xilinx\AdvancedDigitalSystems_Projects\P19a_UniversalAsynchronousReceiver
+LICENSE=WebPack
+USER_INFO=176089449_1777494614_0_810

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/ProySisDigAva/P13b_Even_Parity_Detector/Even_Parity_Detector_tb_isim_beh.exe" -prj "D:/ProySisDigAva/P13b_Even_Parity_Detector/Even_Parity_Detector_tb_beh.prj" "work.Even_Parity_Detector_tb" 

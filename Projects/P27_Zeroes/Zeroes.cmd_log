@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+xst -intstyle ise -ifn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.xst" -ofn "D:/JavierJr/Documents/ISD/AgoDic19/SistemasDigitalesAvanzados/Projects/P27_Zeroes/Zeroes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Zeroes.ngc Zeroes.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Zeroes_map.ncd Zeroes.ngd Zeroes.pcf 
+par -w -intstyle ise -ol high -mt off Zeroes_map.ncd Zeroes.ncd Zeroes.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Zeroes.twx Zeroes.ncd -o Zeroes.twr Zeroes.pcf 
+bitgen -intstyle ise -f Zeroes.ut Zeroes.ncd 

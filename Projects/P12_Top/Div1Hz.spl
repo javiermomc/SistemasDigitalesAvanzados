@@ -1,0 +1,6 @@
+[Inputs]
+Clk_100MHz
+Rst
+[Outputs]
+Clk_1Hz
+[BiDir]

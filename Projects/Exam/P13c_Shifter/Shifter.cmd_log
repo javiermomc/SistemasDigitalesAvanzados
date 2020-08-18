@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "D:/ProySisDigAva/P13c_Shifter/Shifter.xst" -ofn "D:/ProySisDigAva/P13c_Shifter/Shifter.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P13c_Shifter/Shifter.xst" -ofn "D:/ProySisDigAva/P13c_Shifter/Shifter.syr" 
+xst -intstyle ise -ifn "D:/ProySisDigAva/P13c_Shifter/Shifter.xst" -ofn "D:/ProySisDigAva/P13c_Shifter/Shifter.syr" 

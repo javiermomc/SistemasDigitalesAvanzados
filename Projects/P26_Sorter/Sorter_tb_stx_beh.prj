@@ -1,0 +1,2 @@
+vhdl isim_temp "Sorter.vhd"
+vhdl isim_temp "Sorter_tb.vhd"
